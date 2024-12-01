@@ -1,4 +1,3 @@
-# BeginningJava101
 public class Main {
 	public static void main(String[] args) {
             System.out.printIn("Hello World");
@@ -15,14 +14,6 @@ System.out.println(arr[0] || arr[3]);
 		int secondVal = secondRow[0];
 		System.out.println(firstVal);
 while (condition) {
-public class Main {
-	static int[][] board = new int[3][3];
-	
-public static void main(String[] args) {
-		int firstVal = board[0][0];
-		System.out.println(firstVal);
-	}
-}
 	// code to run
     System.out.println(x + 3);
 		System.out.println(x);
@@ -30,3 +21,12 @@ public static void main(String[] args) {
 		System.out.println(x % 1 == 0);
         return str + 
 }
+Grid<Integer> grid = new Grid<>(5, 0);
+grid.set(2, 2, 4);
+System.out.println(grid);
+Shape[] shapes = {new Circle(new Point(1.8, -20), 2), 
+				  new Square(new Point(100, 2.1), 5.4),
+				  new Circle(new Point(0, 0), 1),
+				  new Circle(new Point(4, 9.123), 98.32),
+				  new Square(new Point(-321, 0), 0.02)};
+System.out.println(sumArea(shapes));
