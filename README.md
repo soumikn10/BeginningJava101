@@ -15,6 +15,14 @@ System.out.println(arr[0] || arr[3]);
 		int secondVal = secondRow[0];
 		System.out.println(firstVal);
 while (condition) {
+public class Main {
+	static int[][] board = new int[3][3];
+	
+public static void main(String[] args) {
+		int firstVal = board[0][0];
+		System.out.println(firstVal);
+	}
+}
 	// code to run
     System.out.println(x + 3);
 		System.out.println(x);
